@@ -1,6 +1,4 @@
-{
-    "author_name": "Full Name",
-    "author_email": "name@gmail.com",
+  {
     "plugin_name": "my-plugin-name",
     "plugin_module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
     "short_description": "Simple description of my project."

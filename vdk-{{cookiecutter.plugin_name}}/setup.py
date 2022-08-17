@@ -13,8 +13,6 @@ __version__ = "0.1.0"
 setuptools.setup(
     name="vdk-{{cookiecutter.plugin_name}}",
     version=__version__,
-    author='{{cookiecutter.author_name}}',
-    author_email='{{cookiecutter.author_email}}',
     url="https://github.com/vmware/versatile-data-kit",
     description='{{cookiecutter.short_description}}',
     long_description=pathlib.Path("README.md").read_text(),
