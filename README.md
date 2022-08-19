@@ -1,5 +1,7 @@
 # Cookiecutter Versatile Data Kit Plugin
 
+![test workflow](https://github.com/tozka/cookiecutter-vdk-plugin/actions/workflows/test.yml/badge.svg)
+
 Cookiecutter to get started creating [Versatile Data Kit Plugin](https://github.com/vmware/versatile-data-kit/tree/main/projects/vdk-plugins) quickly.
 
 ## Features
