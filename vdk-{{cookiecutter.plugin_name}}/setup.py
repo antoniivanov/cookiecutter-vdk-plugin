@@ -24,7 +24,7 @@ setuptools.setup(
     # Define entry point called "vdk.plugin.run" with name of plugin and module to act as entry point.
     entry_points={
         "vdk.plugin.run": [
-            "{{cookiecutter.plugin_name}} = vdk.plugin.{{cookiecutter.plugin_module_name}}.plugin_entry"
+            "vdk-{{cookiecutter.plugin_name}} = vdk.plugin.{{cookiecutter.plugin_module_name}}.plugin_entry"
         ]
     },
     classifiers=[
